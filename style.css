@@ -136,3 +136,37 @@ body{
     font-size: 20px;
     font-weight: bold;
 }
+
+.action-card{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin: 70px 10% 70px 10%;
+    padding: 30px;
+    background-color: #3882F6;
+    height: 80px;
+    border: none;
+    border-radius: 10px;
+    flex-wrap: wrap;    
+    gap: 10px;
+}
+
+.action-card-title{
+    font-size: 18px;
+    color: white;
+    font-weight: bold;
+}
+
+.action-card-description{
+    color: #E5E7EB;
+}
+
+.action-card-button{
+    font-size: 18px;
+    padding: 5px 25px 5px 25px;
+    background: none;
+    color: white;
+    border: 1px solid white;
+    border-radius: 8px;
+    font-weight: bold;
+}
