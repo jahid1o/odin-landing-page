@@ -28,6 +28,7 @@ body{
 
 .header-content{
     padding: 70px 0 70px 0;
+    flex-wrap: wrap-reverse;
 }
 
 .header-description-title{
